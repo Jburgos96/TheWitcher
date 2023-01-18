@@ -30,7 +30,7 @@ public class Witcher {
 		this.hasSoul = hasSoul;
 	}
 
-	public boolean isDead() {
+	public boolean isDeath() {
 		
 		if (health == 0) {
 			return true;

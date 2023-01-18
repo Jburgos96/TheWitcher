@@ -10,7 +10,7 @@ public class Main {
 		brujo.setHealth(15);
 		brujo.setHasSoul(true);
 		
-			if (brujo.isDead()) {
+			if (brujo.isDeath()) {
 				System.out.println(brujo.getName() + " está muerto.");
 			}
 			else {
