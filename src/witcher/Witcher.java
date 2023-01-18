@@ -44,4 +44,10 @@ public class Witcher {
 			return false;
 		}
 	}
+	public void recibirDolor(int dolor) {
+		health -= dolor;
+		if (health < 0) {
+			health = 0;
+		}
+	}
 }
